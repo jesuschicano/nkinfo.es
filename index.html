@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <title>NKInfo - Nekrum Inform&aacute;tica</title>
+   <!-- llamada al CSS -->
+   <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection">
+   <!-- llamada a las fuentes -->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="grey darken-2">
+   <!-- barra navegación fija y mobile -->
+   <div class="navbar-fixed z-depth-2">
+    <nav>
+      <div class="nav-wrapper teal lighten-3">
+        <a href="#!" class="brand-logo">Logo</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#"><i class="material-icons left teal-text">search</i>Home</a></li>
+          <li><a href="#me"><i class="material-icons left teal-text">search</i>About me</a></li>
+          <li><a href="#portfolio"><i class="material-icons left teal-text">search</i>Portfolio</a></li>
+          <li><a href="#skills"><i class="material-icons left teal-text">search</i>Skills</a></li>
+          <li><a href="#contact"><i class="material-icons left teal-text">search</i>Contact</a></li>
+        </ul>
+         <ul class="side-nav" id="mobile-demo">
+            <li><a href="#">Home</a></li>
+            <li><a href="#me">About me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul>
+      </div>
+    </nav>
+   </div>
+   <!-- fin barra navegacion -->
+
+   <!-- main -->
+   <div id="home" class="section">
+      <div class="container">
+         <br>
+         <br>
+         <h1 class="header center white-text">NKInfo</h1>
+         <div class="row center">
+            <h5 class="header col s12 white-text">Nekrum Inform&aacute;tica</h5>
+         </div>
+         <br>
+         <br>
+      </div>
+   </div>
+   <!-- end main -->
+
+   <!-- llamada libreria javascript -->
+   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+   <script src="js/materialize.min.js"></script>
+   <script type="text/javascript">
+      //Menu collapse
+      $(".button-collapse").sideNav();
+      //Scroll
+      $('section').scrollSpy();
+   </script>
+</body>
+</html>
